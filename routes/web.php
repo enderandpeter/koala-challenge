@@ -14,5 +14,10 @@
 */
 
 $router->get('/', function () use ($router) {
-    return [$router->app->version()];
+    return config('app');
 });
+
+$router->get('koala/locations/{id}[/{dataType}]', [
+    'as' => 'get-restaurant-data',
+    'uses' => 'Restaurants\DataController@getData'
+]);
