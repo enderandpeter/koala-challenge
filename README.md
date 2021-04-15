@@ -66,7 +66,7 @@ Here is the general format of the response data:
         * variations[]
             * id
             * name
-            * description
+            * (float) price
     
 ## Assumptions
 
