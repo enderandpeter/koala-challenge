@@ -1,6 +1,6 @@
 # Restaurant Data Parser
 
-A REST API for obtaining data from restaurant locations that store their data very differently.
+A REST API made with [Lumen](https://lumen.laravel.com) for obtaining data from restaurant locations that store their data very differently.
 
 ## Requirements
 
