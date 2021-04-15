@@ -9,9 +9,11 @@ A REST API for obtaining data from restaurant locations that store their data ve
 
 ## Installation
 
-Please clone this project from the git repo. The contents of this project is that of
+1. Please clone this project from the git repo.
+2. Please copy `.env.example` to `.env`
+2. The contents of this project is that of
 a typical [Lumen](https://lumen.laravel.com/) project so that [the typical installation instructions](https://lumen.laravel.com/docs/8.x/installation) apply.
-You may serve the `public` folder or run the development server with the command:
+You may serve the `public` folder with a typical web server program like `httpd` or `nginx` with a PHP module or FPM, or run the development server with the command:
 
 ```bash
 php -S localhost:8000 -t public
