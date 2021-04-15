@@ -3,6 +3,7 @@
 
 namespace App\Restaurants;
 
+use App\Restaurants\Koala\Data\Menu\Menu;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
@@ -40,7 +41,7 @@ abstract class Retriever
     protected LocationData $locationData;
 
     private string $menuDataUrl;
-    protected MenuData $menuData;
+    protected Menu $menuData;
 
     private ?string $error;
     private ?int $errorCode;
@@ -52,7 +53,7 @@ abstract class Retriever
     public function __construct(
         Client $httpClient,
         LocationData $locationData,
-        MenuData $menuData,
+        Menu $menuData,
         array $config
     )
     {
@@ -145,7 +146,7 @@ abstract class Retriever
      * Get the container object
      *
      */
-    public function getMenuData(): MenuData | array
+    public function getMenuData(): Menu | array
     {
         return $this->menuData;
     }
@@ -153,9 +154,9 @@ abstract class Retriever
     /**
      * Get the container object
      *
-     * @param MenuData $menuData
+     * @param Menu $menuData
      */
-    public function setMenuData(MenuData $menuData): void
+    public function setMenuData(Menu $menuData): void
     {
         $this->menuData = $menuData;
     }

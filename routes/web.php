@@ -14,7 +14,7 @@
 */
 
 $router->get('/', function () use ($router) {
-    return config('app');
+    return json_decode(file_get_contents(storage_path('tests/menu-koala-json-response.json')), true);
 });
 
 $router->get('koala/locations/{id}[/{dataType}]', [

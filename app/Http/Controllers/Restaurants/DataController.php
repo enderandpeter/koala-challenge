@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Restaurants;
 use App\Http\Controllers\Controller;
 use App\Restaurants\InfoRetriever;
 use App\Restaurants\LocationData;
-use App\Restaurants\MenuData;
+use App\Restaurants\Menu;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Http\JsonResponse;
 
@@ -18,7 +18,7 @@ class DataController extends Controller
 {
     private InfoRetriever $infoRetriever;
 
-    public function getData(int $id, string $dataType = 'location'): LocationData | MenuData | array | JsonResponse
+    public function getData(int $id, string $dataType = 'location'): LocationData | Menu | array | JsonResponse
     {
         try {
             $this->infoRetriever = app()->makeWith(InfoRetriever::class,

@@ -3,7 +3,8 @@
 
 namespace App\Restaurants;
 
-use Illuminate\Support\Collection;
+use App\Restaurants\Koala\Data\Menu\Menu;
+use SimpleXMLElement;
 
 /**
  * Implemented by classes that can retrieve restaurant data. These classes must provide their own implementation
@@ -15,8 +16,8 @@ use Illuminate\Support\Collection;
 interface Retrievable
 {
     public function getLocationData(): LocationData | array;
-    public function getMenuData(): MenuData | array;
-    public function getBillingMethods(array $location): array;
-    public function getHours(array $location): array;
+    public function getMenuData(): Menu | array;
+    public function getBillingMethods(array|SimpleXMLElement $location): array;
+    public function getHours(array|SimpleXMLElement $location): array;
     public function getTimezone(array $location): string;
 }

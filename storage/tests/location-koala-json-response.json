@@ -1,0 +1,45 @@
+{
+    "id": 2,
+    "name": "Koala JSON Eatery",
+    "phone_number": "+1 555-555-5555",
+    "geolocation": {
+        "lat": 40.7139379,
+        "lng": -73.95794
+    },
+    "timezone": "America\/New_York",
+    "address": {
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11211"
+    },
+    "billing_methods": [
+        "credit_card"
+    ],
+    "hours": [
+        {
+            "day": "Monday",
+            "start": "09:00:00",
+            "end": "20:00:00"
+        },
+        {
+            "day": "Tuesday",
+            "start": "09:00:00",
+            "end": "20:00:00"
+        },
+        {
+            "day": "Wednesday",
+            "start": "09:00:00",
+            "end": "20:00:00"
+        },
+        {
+            "day": "Thursday",
+            "start": "09:00:00",
+            "end": "20:00:00"
+        },
+        {
+            "day": "Friday",
+            "start": "09:00:00",
+            "end": "20:00:00"
+        }
+    ]
+}

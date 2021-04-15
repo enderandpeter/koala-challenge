@@ -1,0 +1,155 @@
+{
+    "id": 2,
+    "categories": [
+        {
+            "id": "7SJHJ3UCSF2XQ2XXH3T567IV",
+            "name": "Hot Dogs",
+            "type": "category",
+            "products": [
+                {
+                    "id": "R4VA6IHG6VISKE7L66BGIQQ4",
+                    "type": "product",
+                    "name": "Hot Dog",
+                    "description": "A normal, All-American hot diggity dog",
+                    "variations": [
+                        {
+                            "id": "FPI5Q4XCKDNDJMWAJRVJIRZY",
+                            "name": "Regular",
+                            "price": 4.99
+                        }
+                    ]
+                },
+                {
+                    "id": "J4U3VEVYXNZTIKQIL4Q3HCH3",
+                    "type": "product",
+                    "name": "Garden Dog",
+                    "description": "Like a hot dog, but not",
+                    "variations": [
+                        {
+                            "id": "RAV35JA65ROZPSHYT2PQ32ME",
+                            "name": "Regular",
+                            "price": 5.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "VJOPLGH5AAVHLY4VDWKSXS4N",
+            "name": "Soft Drinks",
+            "type": "category",
+            "products": [
+                {
+                    "id": "6S6THSFSCPU3FZFCEFL4VPLZ",
+                    "type": "product",
+                    "name": "Fountain Soda",
+                    "description": "It's cold and delicious- beyond that, the origins and purpose of this product are lost to science",
+                    "variations": [
+                        {
+                            "id": "B2ZEBRYRYPO6K3F4PM764KPH",
+                            "name": "Regular",
+                            "price": 2
+                        }
+                    ]
+                },
+                {
+                    "id": "XMIMB3M5J4PF2NSGDE2XPYC7",
+                    "type": "product",
+                    "name": "Iced Tea",
+                    "description": "It's tea, but someone left it out and it got cold. We're just trying to roll with it, man.",
+                    "variations": [
+                        {
+                            "id": "77HZSK7F7ON5JH5S7LKB74TT",
+                            "name": "Regular",
+                            "price": 2
+                        }
+                    ]
+                }
+            ],
+            "modifiers": [
+                {
+                    "id": "3FA3XSO5OVXG2O5XOI7ZZPWY",
+                    "name": "Drink Sizes",
+                    "modifications": [
+                        {
+                            "id": "ROISIGIEJHALCCAO673Z5YAT",
+                            "name": "Small",
+                            "onByDefault": true
+                        },
+                        {
+                            "id": "YVAVISC2MLV23OD4VSXSWPJF",
+                            "name": "Medium",
+                            "price": 1,
+                            "onByDefault": false
+                        },
+                        {
+                            "id": "CRQ75KC5YBEAM3BP3YI5SQIL",
+                            "name": "Large",
+                            "price": 2,
+                            "onByDefault": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "UPHBRYLO2IR6HYJCFS6BT7WR",
+            "name": "Specials",
+            "type": "category",
+            "products": []
+        },
+        {
+            "id": "HXVW7HX4LEFZYSRD6FMTPGIY",
+            "name": "Merchandise",
+            "type": "category",
+            "products": [
+                {
+                    "id": "AZ53LRVRBDDGALHZKPLMZAKE",
+                    "type": "product",
+                    "name": "Look What You Made Me Brew Shirt",
+                    "description": "",
+                    "variations": [
+                        {
+                            "id": "4PRVB6FKV2CGL5GL2JOVOLDQ",
+                            "name": "Large",
+                            "price": 25
+                        },
+                        {
+                            "id": "KXZKGZX2PBBUWCSLFUHII57Z",
+                            "name": "Medium",
+                            "price": 25
+                        },
+                        {
+                            "id": "Q6UTZIA3Z5QP7NHLSE7ZNG3H",
+                            "name": "Small",
+                            "price": 25
+                        }
+                    ]
+                },
+                {
+                    "id": "ZQAD5CKVKL3EU7LELZUSDPIZ",
+                    "type": "product",
+                    "name": "How To Make Matcha Shirt",
+                    "description": "",
+                    "variations": [
+                        {
+                            "id": "LW5HZD2X23OEHXPSAEAD4IGP",
+                            "name": "Large",
+                            "price": 20
+                        },
+                        {
+                            "id": "FQYC37LXKP6LCYQAW4SYDU4O",
+                            "name": "Medium",
+                            "price": 20
+                        },
+                        {
+                            "id": "Q4RFGLKSI2YND42SQJAI3YDM",
+                            "name": "Small",
+                            "price": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

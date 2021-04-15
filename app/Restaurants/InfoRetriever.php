@@ -3,6 +3,7 @@
 
 namespace App\Restaurants;
 
+use App\Restaurants\Koala\Data\Menu\Menu;
 use Illuminate\Contracts\Container\BindingResolutionException;
 
 /**
@@ -34,7 +35,7 @@ class InfoRetriever
         $this->dataRetrievalMethodName = $dataRetrievalMethodName;
     }
 
-    public function getData(): LocationData | MenuData | array{
+    public function getData(): LocationData | Menu | array{
         return $this->retrievable->{$this->dataRetrievalMethodName}();
     }
 }
